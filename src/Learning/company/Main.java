@@ -61,10 +61,19 @@ public class Main {
 //        lengthOfLongestSubstring.lengthOfLongestSubstring("abcdeffgghjk");
 
 //        Exercise RunningSumOf1DArray
-        RunningSumOf1dArray runningSumOf1dArray = new RunningSumOf1dArray();
-        int[] nums = {1,2,3,4};
-        int[] result = runningSumOf1dArray.runningSum(nums);
-        System.out.println(Arrays.toString(result));
+//        RunningSumOf1dArray runningSumOf1dArray = new RunningSumOf1dArray();
+//        int[] nums = {1,2,3,4};
+//        int[] result = runningSumOf1dArray.runningSum(nums);
+//        System.out.println(Arrays.toString(result));
+
+//        Exercise ShuffleTheArray
+        ShuffleTheArray shuffleTheArray = new ShuffleTheArray();
+        int[] shuffle = {1,2,4,5,6,7};
+        int[] result = shuffleTheArray.shuffle(shuffle, 3);
+        for (int element : result ) {
+//            int element will be defined as one element of result.
+            System.out.print(element);
+        }
     }
 }
 
